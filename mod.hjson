@@ -2,7 +2,7 @@
 displayName: "Xephyr"
 
 #the internal name of your mod
-name: "wip?"
+name: "wip"
 
 #your name
 author: "Bread & Josip"
@@ -11,7 +11,7 @@ author: "Bread & Josip"
 description: "Rookie :P."
 
 #the mod version
-version: 1.0 WIP
+version: 1.1 WIP
 
 #the minimum game build required to run this mod
 minGameVersion: 146
