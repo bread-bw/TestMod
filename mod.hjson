@@ -1,0 +1,20 @@
+#the mod name as displayed in-game
+displayName: "Xephyr"
+
+#the internal name of your mod
+name: "wip?"
+
+#your name
+author: "Bread & Josip"
+
+#the mod description as seen in the mod dialog
+description: "Rookie :P."
+
+#the mod version
+version: 1.0 WIP
+
+#the minimum game build required to run this mod
+minGameVersion: 146
+
+#this is a java mod
+java: false

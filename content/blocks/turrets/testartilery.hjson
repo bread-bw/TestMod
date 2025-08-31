@@ -1,0 +1,94 @@
+type: ItemTurret
+name: testturretarty
+description: its fuckin test cmon, what u lookin at?
+size: 3
+health: 115
+range: 450
+reload: 280 # 60 = 1 second
+recoil: 3
+rotateSpeed: 2
+coolantMultiplier: 0.1
+  consumes: {
+    coolant: {
+      amount: 0.4
+    }
+}
+shoot: {
+  shots: 2
+  shotDelay: 10
+}
+ammoTypes: {
+    titanium: {
+    type: ArtilleryBulletType
+    splashDamage: 75
+    splashDamageRadius: 35
+    length: 11
+    width: 11
+    speed: 5
+    lifetime: 90
+    frontColor: 919fe7
+    backColor: 7575c8
+  }
+    surge-alloy: {
+    type: ArtilleryBulletType
+    splashDamage: 80
+    splashDamageRadius: 30
+    length: 9
+    width: 9
+    speed: 5
+    lifetime: 95
+    lightningDamage: 10
+    lightning: 3
+    lightningLength: 15
+    status: shocked
+    frontColor: e8d174
+    backColor: d99f6b
+  }
+    plastanium: {
+    type: ArtilleryBulletType
+    splashDamage: 65
+    splashDamageRadius: 30
+    length: 7
+    width: 7
+    speed: 5
+    lifetime: 90
+    frontColor: cbd97f
+    backColor: 9cb664
+    fragBullets: 4
+    fragLifeMin: 0.3
+    fragBullet: {
+      damage: 15
+      splashDamage: 25
+      splashDamageRadius: 10
+      speed: 1
+      lifetime: 25
+      frontColor: cbd97f
+      backColor: 9cb664
+      height: 7
+      width: 7
+    }
+  }
+    blast-compound: {
+    type: ArtilleryBulletType
+    splashDamage: 115
+    splashDamageRadius: 45
+    length: 15
+    width: 15
+    speed: 5
+    lifetime: 95
+    status: blasted
+    frontColor: ff795e
+    backColor: c85c51
+  }
+}
+requirements: [
+    copper/225
+    lead/90
+    titanium/115
+    graphite/110
+]
+
+consumes: {
+  power: 0.1
+}
+research: testturret
