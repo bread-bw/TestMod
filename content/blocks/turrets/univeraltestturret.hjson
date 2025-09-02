@@ -16,12 +16,20 @@ coolantMultiplier: 0.4
 }
 ammoTypes: {
     missile: {
-    reloadMultiplier: 0.55
+    reloadMultiplier: 0.75
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
     spawnUnit: wip-missile1
+  }
+    missile1: {
+    reloadMultiplier: 0.55
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    spawnUnit: wip-missile2
   }
     ap: {
     type: BasicBulletType

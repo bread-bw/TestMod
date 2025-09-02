@@ -2,14 +2,15 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 5
+speed: 7
 useUnitCap: false
 engineSize: 1
-engineOffset: 2.5
+engineOffset: 3.0
 lifetime: 90
 rotateSpeed: 0
-hitSize: 3
-trailLength: 0
+hitSize: 2
+trailLength: 3
+trailWidth: 2
 autoFindTarget: false
 homingDelay: 3
 circleTarget: false
@@ -21,7 +22,7 @@ drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: 44413c
-range: 4
+range: 5
 hidden: true  
 weapons: [
   {
@@ -33,9 +34,8 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 315
-      splashDamageRadius: 30
-      status: shocked      
+      splashDamage: 365
+      splashDamageRadius: 35
     }
   } 
 ]
